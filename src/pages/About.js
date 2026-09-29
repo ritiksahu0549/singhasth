@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Card, Image, Button, Form } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button, Form } from 'react-bootstrap';
 import { FaMapMarkerAlt, FaUsers, FaLightbulb, FaHandshake } from 'react-icons/fa';
 import swal from 'sweetalert';
 
