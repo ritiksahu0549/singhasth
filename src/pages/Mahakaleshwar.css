@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f6f2;
+  color: #333;
+}
+
+/* Top Banner Image Section */
+.top-banner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: -30px;
+
+}
+
+.header i {
+  font-size: 36px;
+  color: black;
+  margin-right: 12px;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Section: Temple History Banner */
+.temple-banner {
+  color: #fff;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  min-height: 100vh;
+  min-width: 100wh;
+  padding: 60px 20px;
+  text-align: center;
+  background-image: url(../../public/images/1649075138727710278.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+
+}
+
+
+.temple-banner h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.temple-banner p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Temple Timings */
+.text-purple {
+  color: #333;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+ul li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+/* Booking Form Section */
+form label {
+  font-weight: 600;
+}
+
+form input,
+form select {
+  border-radius: 4px;
+}
+
+/* Buttons */
+button,
+.btn {
+  background-color: #333;
+  border: none;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #3a2c69;
+}
+
+/* Gallery Section */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: #fff;
+  margin: 0;
+}
+
+.carousel .d-block {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Container Overrides */
+.mahakal-container {
+  max-width: 1140px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header i {
+    margin-bottom: 8px;
+  }
+
+  .temple-banner h2 {
+    font-size: 2rem;
+  }
+
+  .temple-banner p {
+    font-size: 1rem;
+  }
+}
+.timings-card {
+  background-color: #f9f6ff; /* light lavender */
+  border: 2px solid #333; /* purple border */
+  box-shadow: 0 8px 20px rgba(111, 66, 193, 0.2);
+  transition: box-shadow 0.3s ease;
+  margin-left: 300px;
+}
+
+.timings-card:hover {
+  box-shadow: 0 12px 30px rgba(111, 66, 193, 0.35);
+}
+
+.timings-card h2 {
+  font-size: 2.5rem;
+  letter-spacing: 1.2px;
+}
+
+.timings-list li {
+  font-size: 1.3rem;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+.timings-list strong {
+  font-weight: 700;
+  color: #333;
+}
+
+.time-slot {
+  color: #333;
+  font-style: italic;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.gallery-img {
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.carousel-caption {
+  bottom: 15px;
+  left: 15px;
+  right: auto;
+  text-align: left;
+  max-width: 70%;
+}
+
+.carousel-caption h5 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffd700;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  color: #eee;
+  margin-top: 0.3rem;
+}
